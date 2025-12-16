@@ -1,5 +1,5 @@
 import React from 'react'
-import Dp from "../assets/Dp.webp"
+import Dp from "../assets/afridi.jpeg"
 
 export const About = () => {
   return (
