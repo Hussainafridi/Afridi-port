@@ -21,7 +21,7 @@ const Header = () => {
         <a href="#about" className="hover:text-[#705fbe] transition hover:decoration-2 hover:underline hover:decoration-[#705fbe] hover:underline-offset-8">About</a>
         <a href="#Skills" className="hover:text-[#705fbe] transition hover:decoration-2  hover:underline hover:decoration-[#705fbe] hover:underline-offset-8">Skills</a>
         <a href="#Feature" className="hover:text-[#705fbe] transition hover:decoration-2  hover:underline hover:decoration-[#705fbe] hover:underline-offset-8">Projects</a>
-        <a href="#experience" className="hover:text-[#705fbe] transition hover:decoration-2 hover:underline hover:decoration-[#705fbe] hover:underline-offset-8">Experience</a>
+
         <a href="#Contact" className="hover:text-[#705fbe] transition  hover:decoration-2 hover:underline hover:decoration-[#705fbe] hover:underline-offset-8">Contact</a>
       </div>
 
@@ -41,7 +41,7 @@ const Header = () => {
           <li><a href="#home" className="hover:text-indigo-600" onClick={()=>setOpen(false)}>Home</a></li>
           <li><a href="#about" className="hover:text-indigo-600" onClick={()=>setOpen(false)}>About</a></li>
           <li><a href="#Skills" className="hover:text-indigo-600" onClick={()=>setOpen(false)}>Skills</a></li>
-          <li><a href="#projects" className="hover:text-indigo-600" onClick={()=>setOpen(false)}>Projects</a></li>
+          <li><a href="#Feature" className="hover:text-indigo-600" onClick={()=>setOpen(false)}>Projects</a></li>
           <li><a href="#Contact" className="hover:text-indigo-600" onClick={()=>setOpen(false)}>Contact</a></li>
         </ul>
       </div>
