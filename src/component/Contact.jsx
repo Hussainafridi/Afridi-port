@@ -128,7 +128,7 @@ const [result, setResult] = useState("");
           <a href="/public/Hussainafridi_CV.pdf"target="_blank"
           rel="noopener noreferrer"
           ><div className=' flex justify-center items-center '><LuArrowDownToLine size ={22} /></div></a>
-         <a href="/public/Hussainafridi_CV.pdf" target="_blank"
+         <a href="public/Hussainafridi_CV.pdf" target="_blank"
           rel="noopener noreferrer"><p className='text-lg font-normal '>Download Resume</p></a>
       </div>
     </div>

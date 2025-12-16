@@ -29,7 +29,7 @@ const Hero = () => {
       {/* Button */}
       <div className="flex items-center justify-between gap-5">
         <a
-          href="#projects"
+          href="#Feature"
           className=" bg-[#2563eb] hover:bg-[#2563eb] transition-transform duration-300 hover:scale-110 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition"
         >
           View My Work
