@@ -114,8 +114,10 @@ const [result, setResult] = useState("");
     <div className="bg-white shadow-lg p-6 rounded-xl sm:w-150 w-100 ">
         <h4 className="text-xl font-semibold py-2 px-4">Connect with me</h4>
         <div className='flex  gap-4 py-2 px-4  items-center text-gray-500'>
-          <a href="https://chatgpt.com/c/6931610d-cad4-8323-895f-3cf126d4c679"><div className=' flex justify-center items-center '><FiGithub size = {22}/></div></a>
-         <a href=""><p className='text-lg font-normal '>GitHub Profile</p></a>
+          <a href="https://github.com/Hussainafridi/Afridi-port" target="_blank"
+          rel="noopener noreferrer"><div className=' flex justify-center items-center '><FiGithub size = {22}/></div></a>
+         <a href="https://github.com/Hussainafridi/Afridi-port" target="_blank"
+          rel="noopener noreferrer"><p className='text-lg font-normal '>GitHub Profile</p></a>
 
       </div>
        <div className='flex  gap-4 py-3 items-center  px-4 text-gray-500 '>
@@ -123,7 +125,9 @@ const [result, setResult] = useState("");
          <a href=""><p className='text-lg font-normal '>Linkedin Profile</p></a>
       </div>
        <div className='flex  gap-4 py-3 items-center  px-4 text-gray-500 '>
-          <a href=""><div className=' flex justify-center items-center '><LuArrowDownToLine size ={22} /></div></a>
+          <a href="/public/Hussainafridi_CV.pdf"target="_blank"
+          rel="noopener noreferrer"
+          ><div className=' flex justify-center items-center '><LuArrowDownToLine size ={22} /></div></a>
          <a href="/public/Hussainafridi_CV.pdf" target="_blank"
           rel="noopener noreferrer"><p className='text-lg font-normal '>Download Resume</p></a>
       </div>
